@@ -25,6 +25,13 @@
   opacity: 0.8;
 }
 
+.gallery__caption {
+  text-align: center;
+  padding: 0.5rem;
+  font-size: 1rem;
+  word-wrap: break-word;
+}
+
 @media (max-width: 768px) {
   .gallery {
     grid-template-columns: repeat(2, 1fr);
