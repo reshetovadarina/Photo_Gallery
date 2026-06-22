@@ -21,3 +21,21 @@
   transform: scale(1.05);
   opacity: 0.8;
 }
+
+@media (max-width: 768px) {
+  .gallery {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 3%;
+  }
+}
+
+@media (max-width: 480px) {
+  .gallery {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 1.5rem;
+  }
+
+  .gallery__item--wide {
+    grid-column: auto;
+  }
+}
