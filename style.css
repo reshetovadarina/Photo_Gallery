@@ -11,3 +11,13 @@
 .gallery__item--tall {
   grid-row: span 2;
 }
+.gallery__image {
+  transition:
+    transform 0.3s ease,
+    opacity 0.3s ease;
+}
+
+.gallery__image:hover {
+  transform: scale(1.05);
+  opacity: 0.8;
+}
